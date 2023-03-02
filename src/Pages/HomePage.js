@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import NavBar from "../Components/NavBar";
+import "./HomePage.css"
 
 function HomePage() {
   return (
-    <div>
-        <h1>Home</h1>
+    <div className="Home">
+      <NavBar></NavBar>
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
