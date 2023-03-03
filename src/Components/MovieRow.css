@@ -1,0 +1,13 @@
+.Row {
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.Row h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}

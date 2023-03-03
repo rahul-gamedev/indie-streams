@@ -1,9 +1,12 @@
 * {
     margin: 0;
-    border: 0%;
+    border: none;
 }
+
 .Home {
     width: 100%;
-    height: 100vh;
-    background-color: rgb(9, 5, 14);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left top, #280c32, #1f0f2b, #191023, #14101a, #0f0f0f);
 }

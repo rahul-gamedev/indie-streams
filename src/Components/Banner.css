@@ -1,0 +1,37 @@
+.Banner {
+    width: 85%;
+    height: 60vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(to right, #000000, #1c1c1c, #32323277, #4949493f, #62626200);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.Banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    box-shadow: 50px;
+    opacity: .69;
+}
+
+.banner-info {
+    position: absolute;
+    margin: 10px 75px;
+}
+
+.banner-info h1 {
+    color: white;
+    text-shadow: 3px 2px 15px rgba(0, 0, 0, 0.55);
+}
+
+.Description {
+    font-size: 16px;
+    text-shadow: 3px 2px 10px rgba(0, 0, 0, 0.55);
+    color: white;
+    width: 80vh;
+}

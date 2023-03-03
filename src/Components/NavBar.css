@@ -1,13 +1,13 @@
 .navbar {
-  margin: 15px 2%;
   width: auto;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-self: center;
   align-content: center;
 }
-.navbar img{
+
+.navbar img {
   margin: 10px;
   width: auto;
   max-height: fit-content;
@@ -17,13 +17,14 @@
   cursor: pointer;
 }
 
-.Links{
+.Links {
   width: 25%;
   display: flex;
   justify-content: space-between;
   color: white;
   vertical-align: middle;
 }
+
 .Links h3 {
   max-height: 100%;
   display: flex;
@@ -32,4 +33,3 @@
   font-weight: 400;
   cursor: pointer;
 }
-
