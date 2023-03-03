@@ -1,17 +1,12 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+  transition-duration: 1s;
 }
-
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
+html {
+  scroll-behavior: smooth;
 }
 .Login-form {
   display: flex;
   flex-direction: column;
 }
-
-

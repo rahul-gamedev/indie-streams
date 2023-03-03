@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
-import '../src/Logo/IndieStreams-logo.png'
 
 //PAGES
 import HomePage from './Pages/HomePage';
@@ -13,7 +12,7 @@ import MoviePage from './Pages/MoviePage';
 function App() {
   return (
     <Fragment>
-      <div className='App-header'>
+      <div>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomePage ></HomePage>}></Route>

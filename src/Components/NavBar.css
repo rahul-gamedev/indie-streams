@@ -1,16 +1,16 @@
 .navbar {
-  width: auto;
-  height: 8vh;
+  width: 90%;
+  height: max-content;
   display: flex;
   justify-content: space-between;
   align-self: center;
-  align-content: center;
+  margin: 12px;
 }
 
 .navbar img {
-  margin: 10px;
+  margin: 6px;
   width: auto;
-  max-height: fit-content;
+  max-height: 48px;
   display: flex;
   align-items: center;
   vertical-align: middle;
@@ -30,6 +30,6 @@
   display: flex;
   align-items: center;
   font-size: small;
-  font-weight: 400;
+  font-weight: 500;
   cursor: pointer;
 }

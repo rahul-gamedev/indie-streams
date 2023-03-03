@@ -1,13 +1,25 @@
 .Row {
-    width: 90%;
-    height: 35vh;
-    display: flex;
-    flex-direction: row;
-    align-self: center;
+  width: 90%;
+  height: max-content;
+  align-self: center;
+}
+.Row h1 {
+  margin: 15px 10px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+.items {
+  width: 100%;
+  min-height: 270px;
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  scroll-behavior: smooth;
+  object-fit: contain;
+  transition: all 450ms;
 }
 
-.Row h1 {
-    font-size: 28px;
-    font-weight: 600;
-    color: white;
+.items::-webkit-scrollbar {
+  display: none;
 }
