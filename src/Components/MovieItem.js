@@ -5,8 +5,13 @@ function MovieItem(props) {
     return (
         <div className="item">
             <img src={props.poster} alt="" />
-            <h1>{props.title}</h1>
-            <p>{props.description}</p>
+            <div className="item-info">
+                <div className="emphasis">
+                    <h1 className='title'>{props.title}</h1>
+                <p className='description'>{props.description}</p>
+                </div>
+            </div>
+            
       </div>
   )
 }

@@ -11,7 +11,7 @@ function HomePage() {
       <NavBar></NavBar>
       <Banner></Banner>
 
-      <MovieRow heading = "Trending"></MovieRow>
+      <MovieRow heading = "Trending" ></MovieRow>
       <MovieRow heading = "Popular"></MovieRow>
       <MovieRow heading = "Newly Released"></MovieRow>
 

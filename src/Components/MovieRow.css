@@ -3,7 +3,7 @@
   height: max-content;
   align-self: center;
 }
-.Row h1 {
+.heading {
   margin: 15px 10px;
   font-size: 28px;
   font-weight: 600;

@@ -4,8 +4,7 @@
   margin: 10px;
   margin-right: 2.5vh;
   transition: all 300ms;
-  overflow: visible;
-  background: black;
+  position: relative;
 }
 
 .item:hover {
@@ -13,12 +12,43 @@
   cursor: pointer;
 }
 
+.item-info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 8px;
+  opacity: 0;
+  transition: all 350ms;
+}
+.item-info:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
 .item img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  transition: all 300ms;
+  object-fit: cover;
+  position: absolute;
 }
-.item img:hover {
-  opacity: 0.5;
+.emphasis {
+  margin: 5px 15px;
+  display: inline-block;
+  width: calc(90%);
+  max-height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.description {
+  color: white;
+  font-size: 8px;
 }
