@@ -1,0 +1,27 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 18px 38px;
+  box-shadow: 0 0 75px rgba(94, 26, 202, 0.08);
+  margin-bottom: 38px;
+}
+.nav-btns {
+  /* background-color: aqua; */
+  display: flex;
+  margin: auto 0;
+}
+.user-btns {
+  /* background-color: aqua; */
+  display: flex;
+  width: 100%;
+  margin: auto 0;
+}
+.heading {
+  margin: auto 0;
+  cursor: pointer;
+}
+.mail {
+  margin: auto;
+  font-size: 12px;
+}

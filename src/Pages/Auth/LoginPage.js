@@ -20,16 +20,8 @@ function LoginPage() {
 
   return (
     <div>
-      <h1>Login Page</h1>
-      <form
-        onSubmit={handleLogin}
-        style={{
-          margin: "auto",
-          width: "80vh",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
+      <h1 className="heading">Login</h1>
+      <form onSubmit={handleLogin}>
         <label>Email</label>
         <input
           type="email"
@@ -52,7 +44,11 @@ function LoginPage() {
           }}
         ></input>
 
-        <button type="submit">Login</button>
+        <div>
+          <button className="button" type="submit">
+            Login
+          </button>
+        </div>
       </form>
     </div>
   );

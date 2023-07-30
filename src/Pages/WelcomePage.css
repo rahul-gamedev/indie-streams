@@ -1,0 +1,24 @@
+.content {
+  margin: auto;
+  height: 81vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(17, 6, 36);
+  background: radial-gradient(
+    circle,
+    rgba(17, 6, 36, 1) 0%,
+    rgba(0, 0, 0, 1) 28%
+  );
+}
+
+.logo {
+  aspect-ratio: 1/1;
+  width: 158px;
+}
+.text {
+  margin: auto;
+}
+.tag {
+  font-weight: 800;
+}

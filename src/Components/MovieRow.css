@@ -1,0 +1,10 @@
+.row {
+  /* background-color: rgb(26, 59, 59); */
+  display: flex;
+  flex-direction: column;
+  margin: 12px 36px;
+}
+
+.sub-heading {
+  align-self: flex-start;
+}

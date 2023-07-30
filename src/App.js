@@ -12,6 +12,8 @@ import SignUpPage from "./Pages/Auth/SignUpPage";
 import LoginPage from "./Pages/Auth/LoginPage";
 import WelcomePage from "./Pages/WelcomePage";
 import PublishPage from "./Pages/PublishPage";
+import WatchPage from "./Pages/WatchPage";
+import NavBar from "./Components/NavBar";
 
 function App() {
   const navigate = useNavigate();
@@ -30,31 +32,15 @@ function App() {
 
   return (
     <div className="App">
-      <nav>
-        {!user && (
-          <div>
-            <Link to={"/signup"}>SignUp</Link>
-            <Link to={"/login"}>Login</Link>
-          </div>
-        )}
-        {user && (
-          <button
-            onClick={() => {
-              signOut(auth);
-            }}
-          >
-            SignOut
-          </button>
-        )}
-      </nav>
+      <NavBar></NavBar>
       <Routes>
         <Route path="/" element={<WelcomePage></WelcomePage>}></Route>
         <Route path="/home" element={<HomePage></HomePage>}></Route>
         <Route path="/signup" element={<SignUpPage></SignUpPage>}></Route>
         <Route path="/login" element={<LoginPage></LoginPage>}></Route>
         <Route path="/publish" element={<PublishPage></PublishPage>}></Route>
+        <Route path="/watch/:id" element={<WatchPage></WatchPage>}></Route>
       </Routes>
-      <p>{user?.email}</p>
     </div>
   );
 }

@@ -78,15 +78,7 @@ function PublishPage() {
 
   return (
     <div>
-      <h1>PublishPage</h1>
-      <form
-        style={{
-          margin: "auto",
-          width: "80vh",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
+      <form>
         <input
           type="text"
           placeholder="Movie Name"
@@ -108,6 +100,7 @@ function PublishPage() {
 
         <label>Poster</label>
         <input
+          className="file"
           type="file"
           accept="image/jpeg"
           onChange={(e) => {
@@ -119,6 +112,7 @@ function PublishPage() {
 
         <label>Movie</label>
         <input
+          className="file"
           type="file"
           accept="video/mp4"
           onChange={(e) => {
@@ -128,7 +122,11 @@ function PublishPage() {
           }}
         ></input>
 
-        <button onClick={handleSubmit}>Submit</button>
+        <div class="submit">
+          <button className="button" onClick={handleSubmit}>
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
