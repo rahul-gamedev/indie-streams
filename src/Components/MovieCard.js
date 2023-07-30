@@ -13,7 +13,7 @@ function MovieCard({ movie }) {
       onClick={handleClick}
       style={{ backgroundImage: `url(${movie.Poster})` }}
     >
-      <div class="card-content">
+      <div className="card-content">
         <div>
           <h2 className="title">{movie.MovieName}</h2>
           <p className="synopsis">{movie.Synopsis}</p>

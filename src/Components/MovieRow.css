@@ -1,8 +1,11 @@
 .row {
-  /* background-color: rgb(26, 59, 59); */
   display: flex;
   flex-direction: column;
-  margin: 12px 36px;
+  margin: 10px 32px;
+  margin-bottom: 38px;
+  padding: 18px 18px;
+  background-color: rgb(12, 12, 12);
+  border-radius: 10px;
 }
 
 .sub-heading {

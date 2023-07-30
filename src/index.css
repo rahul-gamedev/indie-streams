@@ -3,7 +3,9 @@ body {
   box-sizing: border-box;
   border: 0;
 
-  font-family: montserrat;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -24,6 +26,7 @@ body {
 
 .button {
   margin: 12px;
+  width: fit-content;
 
   font-size: 14px;
 
@@ -37,7 +40,7 @@ body {
 
   color: black;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .button:hover {
   background-color: rgba(0, 0, 0, 0);
@@ -47,7 +50,7 @@ body {
 
 .button-outline {
   margin: 12px;
-  align-self: c;
+  width: fit-content;
   font-size: 14px;
   font-weight: 500;
   background-color: rgba(0, 0, 0, 0);
@@ -59,7 +62,7 @@ body {
   border-radius: 6px;
   color: rgb(250, 153, 27);
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .button-outline:hover {
   background-color: rgb(250, 153, 27);

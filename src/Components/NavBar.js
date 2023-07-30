@@ -30,10 +30,11 @@ function NavBar() {
           </div>
         )}
         {auth.currentUser && (
-          <div class="user-btns">
+          <div className="user-btns">
             <Link to={"/publish"} className="button">
               Publish
             </Link>
+
             <button
               className="button-outline"
               onClick={() => {

@@ -23,7 +23,7 @@ function PublishPage() {
           MovieName: movieName,
           Synopsis: synopsis,
           Poster: "",
-          Movie: "",
+          Movie: "../videos/sample-movie.mp4",
           User: auth.currentUser.email,
         });
         console.log("Document written with ID: ", docRef.id);
@@ -64,9 +64,9 @@ function PublishPage() {
       .then(async (URL) => {
         setMovieUrl(URL);
         const docu = doc(database, "movies", id);
-        await updateDoc(docu, {
-          Movie: URL,
-        });
+        // await updateDoc(docu, {
+        //   Movie: URL,
+        // });
         console.log("Movie Upload Successfull!" + URL);
         alert("Upload Completed");
         navigate("/home");

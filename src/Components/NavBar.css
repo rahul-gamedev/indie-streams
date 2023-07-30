@@ -7,14 +7,11 @@
   margin-bottom: 38px;
 }
 .nav-btns {
-  /* background-color: aqua; */
   display: flex;
   margin: auto 0;
 }
 .user-btns {
-  /* background-color: aqua; */
   display: flex;
-  width: 100%;
   margin: auto 0;
 }
 .heading {

@@ -20,16 +20,8 @@ function SignUpPage() {
 
   return (
     <div>
-      <h1>SignUpPage</h1>
-      <form
-        onSubmit={handleSignIn}
-        style={{
-          margin: "auto",
-          width: "80vh",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
+      <h1 className="heading">SignUp</h1>
+      <form onSubmit={handleSignIn}>
         <label>Email</label>
         <input
           type="email"
@@ -52,7 +44,11 @@ function SignUpPage() {
           }}
         ></input>
 
-        <button type="submit">Create Account</button>
+        <div>
+          <button className="button" type="submit">
+            Create Account
+          </button>
+        </div>
       </form>
     </div>
   );
